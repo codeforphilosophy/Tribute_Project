@@ -42,11 +42,17 @@ figure img{
     max-height: 100%;
 } */
 
+body{
+    background-image:url(assets/green-leaf-1353938.jpg) ;
+    font-family: 'Playfair Display', serif;
+    background-size: cover;
+}
 #main {
 display: flex;
 width: 100%;
 margin: 2rem auto;  
-justify-content: space-evenly;
+justify-content: center;
+
 }
 
 #img-grid{
@@ -104,4 +110,13 @@ justify-content: space-evenly;
     max-width: 50%;
     height: auto;
     border-radius: 95% 100%;
+   margin: auto;
+  }
+
+  #title-div >p{
+      font-weight: 400i;
+  }
+
+  #title h1{
+      font-weight: 700;
   }
